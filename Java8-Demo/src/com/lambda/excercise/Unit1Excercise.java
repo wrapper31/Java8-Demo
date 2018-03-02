@@ -13,11 +13,11 @@ public class Unit1Excercise {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		List<Person> persons = Arrays.asList(new Person("Ajit", "Rai", 35)
-				, new Person("Sudha", "Pandey", 35),
-				new Person("Anvi", "Rai", 3),new Person("Ajay", "Kumar", 40),
-				new Person("Kapil", "Muni Rai", 69),
-				new Person("Nagmuni", "Devi", 60));
+		List<Person> persons = Arrays.asList(new Person("Alex", "Roger", 35)
+				, new Person("Susan", "Pappilon", 35),
+				new Person("Ava", "Rose", 3),new Person("Adam", "Kalinski", 40),
+				new Person("Kevin", "Muron", 69),
+				new Person("Nancy", "Dillon", 60));
 		
 		System.out.println("Before Sorting : ");
 		printLastNameWithConditon(persons,p->true);
